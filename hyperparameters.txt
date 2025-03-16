@@ -1,0 +1,14 @@
+exp_name: dqn_tostu_250316ds
+seed: 1
+torch_deterministic: True
+cuda: True
+env_id: CartPole-v1
+total_timesteps: 500000
+learning_rate: 0.001
+num_envs: 1
+buffer_size: 50000
+gamma: 0.99
+epsilon: 0.05
+batch_size: 128
+learning_starts: 5000
+train_frequency: 10
